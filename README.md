@@ -22,28 +22,5 @@ Developed as part of the HKUST(GZ) Maker World workshop series.
 ---
 
 ## Hardware Wiring Diagram
-+------------------------------------+
-   |          ESP32-C3 CORE             |
-   |                                    |
-   |  GPIO 8 (SDA)  <---->  SDA (MPU6050)|
-   |  GPIO 9 (SCL)  <---->  SCL (MPU6050)|
-   |  GPIO 4 (PWM1) ---->   IN1 (DRV8833)|
-   |  GPIO 5 (PWM2) ---->   IN2 (DRV8833)|
-   |  3.3V / GND    <---->  VCC / GND   |
-   +------------------------------------+
-                     |
-  +------------------+------------------+
-  |                                     |
-+---------------+                     +-----------+
-| MPU6050 (IMU) |                     | DRV8833   |
-+---------------+                     +-----------+
-|
-OUT1 / OUT2
-|
-+-----------+
-| DC Motor  |
-+-----------+
-
-
----
+<img width="601" height="676" alt="image" src="https://github.com/user-attachments/assets/556e4cca-a39d-46c1-80f6-8a0c053084c3" />
 
